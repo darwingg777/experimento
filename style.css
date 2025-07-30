@@ -4,6 +4,7 @@
 p {
   font-family: Arial, sans-serif;
   color: #333;
+  
 }
 
 /* Estilo para la clase "destacado" */
@@ -23,4 +24,13 @@ p {
   font-size: 30px;
   color: #000000;
   font-family: 'tendang';
+}
+#validadorContraseñas{
+  font-size: 30px;
+  color: #000000;
+  font-family: cursive;
+}
+#password{
+  font-size: 30px;
+  
 }

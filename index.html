@@ -5,13 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <p>Este es un párrafo normal.</p>
-    <p class="destacado">Este párrafo está destacado.</p>
-    <p id="intro">Este es el párrafo de introducción.</p>
+<body onload="loadPage()">
+    <div class="container">
+        <h2 id="validadorContraseñas">validador de contraseñas</h2>
+        <div class="inputs">
+            <input id="password" type="password" placeholder="Ingrese su contraseña">
+            <i></i>
+        </div>
+        <button onclick="validar()" id="Validar">Validar</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function validar() {
+            alert("xddddd jaja");
+            console.log("xddddd jaja");
+        }
+        function loadPage() {
+            Swal.fire({
+                title: "bienvenido",
+                text: "a mi sitio web",
+                icon: "success",
+                showConfirmButton: false,
+                timer:3000
+            });
+        }
+    </script>
+
+
+
 </body>
 
 </html>

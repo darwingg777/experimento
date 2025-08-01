@@ -41,7 +41,7 @@ p {
 
 body {
   background-image: url('img/shutterstock_235902955.jpg');
-  background-size: contain;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;

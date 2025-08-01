@@ -1,10 +1,8 @@
-
-
 /* Estilo para TODOS los párrafos */
 p {
   font-family: Arial, sans-serif;
   color: #333;
-  
+
 }
 
 /* Estilo para la clase "destacado" */
@@ -19,18 +17,64 @@ p {
   font-family: 'tendang';
   src: url(tendang/Tendang.otf);
 }
+
 /* Estilo para el ID "intro" */
 #intro {
   font-size: 30px;
   color: #000000;
   font-family: 'tendang';
 }
-#validadorContraseñas{
+
+#validadorContraseñas {
+  
   font-size: 30px;
   color: #000000;
   font-family: tendang;
 }
-#password{
-  font-size: 30px;
-  
+
+#password {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+
+}
+
+body {
+  background-image: url('img/shutterstock_235902955.jpg');
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+}
+
+.container {
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 10px 9px 16px 8px rgba(0, 0, 0, 1);
+
+}
+
+input {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#btn_validate {
+  background-color: rgb(218, 15, 0);
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 8px 9px 8px 5px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+#btn_validate:hover{
+  background-color: rgb(14, 255, 14);
+  transform: scale(1.1);
 }

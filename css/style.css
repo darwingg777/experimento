@@ -83,8 +83,9 @@ input {
   transform: scale(1.1);
 }
 a{
-  text-decoration: none
-  color(#888 red green blue);
+  text-decoration: none;
+  color: #333;
+  margin-top: 10px;
 }
 
 

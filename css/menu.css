@@ -2,12 +2,27 @@
     display: flex;
     background-color: #eee;
     padding: 10px;
+    
 }
 
 .tab {
     margin-right: 20px;
     padding: 10px;
     cursor: pointer;
+    background-color: aqua;
+    margin-left: 10px;
+}
+.tab2 {
+    margin-right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+.tab3{
+    margin-right: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: aqua;
 }
 
 .content {
@@ -18,3 +33,4 @@
 .active {
     display: block;
 }
+

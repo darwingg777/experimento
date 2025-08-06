@@ -1,0 +1,50 @@
+body {
+    font-family: arial, sans-serif;
+    background: #5378b4;
+    background: linear-gradient(90deg, rgb(92, 119, 152) 0%, rgb(108, 163, 219) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+
+}
+
+button {
+    margin-top: 15px;
+    background-color: rgb(102, 130, 219);
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 2px 0.5px rgba(0, 0, 0, 0.29);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#btn_validate:hover {
+    background-color: #4b4b4b;
+    color: white;
+}
